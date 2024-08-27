@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AishasLib", "AishasLib\AishasLib.csproj", "{A736764F-891C-4AAD-BBF1-231F77DBD540}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library-web", "library-web", "{DBCE927B-C94F-4196-8F1E-6AD264F8CA28}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		index.html = index.html
+		script.js = script.js
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{46DB4C77-6A70-469D-87CC-B4D385D67CBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{A7EF8A1C-D61B-4C81-999E-E27337391C04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{48EB1320-882C-4A21-9365-729F954A6097}"
+	ProjectSection(SolutionItems) = preProject
+		images\bookstore-pic-2.jpg = images\bookstore-pic-2.jpg
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryDataAccessLayer", "LibraryDataAccessLayer\LibraryDataAccessLayer.csproj", "{20C2F826-90E6-4FE0-81F2-49A9F8C9E4B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "forms", "forms", "{C056078A-F540-403F-BE98-01647DA27908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "forms", "forms", "{01E3C013-06C5-46B2-8E38-23436D07B280}"
+	ProjectSection(SolutionItems) = preProject
+		form-style.css = form-style.css
+		form.html = form.html
+		form.js = form.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "about-folder", "about-folder", "{E6CA9DB7-0951-4BE3-885E-20AD118D6FA4}"
+	ProjectSection(SolutionItems) = preProject
+		about-style.css = about-style.css
+		about.html = about.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A736764F-891C-4AAD-BBF1-231F77DBD540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A736764F-891C-4AAD-BBF1-231F77DBD540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A736764F-891C-4AAD-BBF1-231F77DBD540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A736764F-891C-4AAD-BBF1-231F77DBD540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DB4C77-6A70-469D-87CC-B4D385D67CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DB4C77-6A70-469D-87CC-B4D385D67CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DB4C77-6A70-469D-87CC-B4D385D67CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DB4C77-6A70-469D-87CC-B4D385D67CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EF8A1C-D61B-4C81-999E-E27337391C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EF8A1C-D61B-4C81-999E-E27337391C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EF8A1C-D61B-4C81-999E-E27337391C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EF8A1C-D61B-4C81-999E-E27337391C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C2F826-90E6-4FE0-81F2-49A9F8C9E4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C2F826-90E6-4FE0-81F2-49A9F8C9E4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C2F826-90E6-4FE0-81F2-49A9F8C9E4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C2F826-90E6-4FE0-81F2-49A9F8C9E4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48EB1320-882C-4A21-9365-729F954A6097} = {DBCE927B-C94F-4196-8F1E-6AD264F8CA28}
+		{C056078A-F540-403F-BE98-01647DA27908} = {DBCE927B-C94F-4196-8F1E-6AD264F8CA28}
+		{01E3C013-06C5-46B2-8E38-23436D07B280} = {C056078A-F540-403F-BE98-01647DA27908}
+		{E6CA9DB7-0951-4BE3-885E-20AD118D6FA4} = {DBCE927B-C94F-4196-8F1E-6AD264F8CA28}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {226A379A-6BF1-41DE-A422-39F3E49A330E}
+	EndGlobalSection
+EndGlobal

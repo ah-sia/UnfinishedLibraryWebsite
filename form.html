@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="form-style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="form.js"></script>
+
+
+    <title>Form</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <div id="brand-logo">
+            <h1 id="web-brand">SELENE</h1>
+            <img id="logo" src="" alt="logo" />
+        </div>
+
+        <div id="nav-menu">
+            <a id="nav-menu-1">Home</a>
+            <a id="nav-menu-2">Collection</a>
+            <a id="nav-menu-3">About</a>
+        </div>
+
+        <div id="right-side-nav">
+            <a id="nav-wish">Wishlist</a>
+            <img id="logo" src="" alt="wish">
+
+            <a id="nav-cart">Cart</a>
+            <img id="logo" src="" alt="cart">
+        </div>
+    </div>
+
+    <div id="form-container">
+        <div id="choices">
+            <ul id="choice-list">
+                <li class="choice">Search Book</li>
+                <li class="choice">Add Book</li>
+                <li class="choice">Delete Book</li>
+                <li class="choice">Update Book</li>
+            </ul>
+        </div>
+
+        <div id="form">
+            <div id="forms" class="add-form">
+                <span id="add-book" class="form-title">Add Book</span>
+                <div id="text-info">
+                    <label for="bookTitle">Title</label>
+                    <label for="authorFirstName">Author First Name</label>
+                    <label for="authorLastName">Author Last Name</label>
+                    <label for="bookEdition">Edition</label>
+                    <label for="publisherName">Publisher</label>
+                    <label for="datePublished">Date of Publishing</label>
+                </div>
+
+                <div id="text-box">
+                    <input type="text" id="txtTitle">
+                    <input type="text" id="txtFirstName">
+                    <input type="text" id="txtLastName">
+                    <input type="text" id="txtEdition">
+                    <input type="text" id="txtPublisherName">
+                    <input type="date" id="txtDatePublished">
+                </div>
+
+                <button id="btnSave" class="btn">Save</button>
+            </div>
+
+            <div id="forms" class="delete-form">
+                <span id="delete-book" class="form-title">Delete Book</span>
+                <div id="text-info">
+                    <label for="bookTitle">Title</label>
+                    <label for="authorFirstName">Author First Name</label>
+                    <label for="authorLastName">Author Last Name</label>
+                </div>
+
+                <div id="text-box">
+                    <input type="text" id="delTitle">
+                    <input type="text" id="delFirstName">
+                    <input type="text" id="delLastName">
+                </div>
+
+                <button id="btnDelete" class="btn">Delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
